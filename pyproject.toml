@@ -1,0 +1,15 @@
+[project]
+name = "transformer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+]
+[tool.pyright]
+include = ["src"]
+executionEnvironments = [
+    {root="src"}
+]
